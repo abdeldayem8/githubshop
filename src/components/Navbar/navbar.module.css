@@ -1,0 +1,17 @@
+/* For dark mode */
+.nav {
+  background-color: var(--bgSoft); 
+  color: var(--text); 
+  padding-inline: 10px;
+}
+
+
+.light-mode .nav {
+  background-color: var(--bg); 
+  color: var(--textSoft);
+  padding-inline: 10px; 
+}
+
+.dropdown{
+    background-color: #2e374a;
+  }

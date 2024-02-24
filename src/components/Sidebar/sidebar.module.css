@@ -1,0 +1,26 @@
+.opened{
+    background-color: var(--bgSoft);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 15rem;
+    min-height: 100vh;
+}
+.closed{
+    display: none; 
+}
+
+.link{  
+  margin:10px;
+}
+
+.link:hover{
+    background-color: var(--textSoft);
+}
+
+.title{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+}  
