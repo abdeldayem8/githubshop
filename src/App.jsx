@@ -7,7 +7,7 @@ import Products from './components/Products/Products'
 import Restaurants from './components/Restaurants/Restaurants'
 import Login from './components/Login/Login'
 import Notfound from './components/Not-found/Notfound'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Signup from './components/Signup/Signup'
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -18,7 +18,7 @@ import ProtectedRoute from './components/Protect/Protect';
 
 
 
-const router= createBrowserRouter([
+const router= createHashRouter([
   {path:'/' ,element: <Layout/>,children:[
   {path:'',element: <Signup/> },
   {path:'signup',element: <Signup/>},
